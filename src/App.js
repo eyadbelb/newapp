@@ -7,7 +7,7 @@ function App() {
       <h1 className="headTitle"> Drums Shop</h1>
       <p>
         {" "}
-        As for the lack of the drums in our classes i decided to open an drums
+        As for the lack of the drums in our classes i decided to open a drums
         shop especially for Laila{" "}
       </p>
       <p> If you are a Coded student there is a decount for you</p>
