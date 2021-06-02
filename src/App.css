@@ -12,3 +12,37 @@
   margin-right: auto;
   width: 50%;
 }
+
+.imageone {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  align-content: center;
+}
+
+.imagess {
+  width: 150px;
+  height: 150px;
+}
+.hihi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.byebye {
+  margin: 50px;
+}
+
+/* <img
+        className="imageone"
+        src="https://cdn.shopify.com/s/files/1/0657/6821/products/DSC_2693.jpg?v=1571270239"
+      />
+      <img
+        className="imageone"
+       src="https://thumbs.static-thomann.de/thumb/orig/pics/bdb/467182/14593933_800. jpg"
+      />
+      <img
+        className="imageone"
+        src="https://images-na.ssl-images-amazon.com/images/I/71nJgkQau1L._AC_SX425_.jpg"
+      /> */
