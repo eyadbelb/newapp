@@ -1,14 +1,9 @@
 import products from "../products";
+import ProductItem from "./ProductItem";
+
 const ProductList = () => {
   const productList = products.map((product) => (
-    <div className="byebye">
-      <img className="imagess" src={product.image} />
-
-      <br />
-      <p>{product.spec}</p>
-      <br />
-      <p>{product.price}</p>
-    </div>
+    <ProductItem product={product} key={product.id} />
   ));
   return (
     <div className="theme">
