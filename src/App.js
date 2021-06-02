@@ -1,13 +1,14 @@
 import ProductList from "./compontes/ProductList";
 import products from "./products";
 import "./App.css";
+import { FullBody, HeadTitle } from "./styles";
 
 function App() {
   return (
-    <div className="theme">
-      <h1 className="headTitle"> Drums Shop</h1>
+    <FullBody>
+      <HeadTitle> Drums Shop</HeadTitle>
       <ProductList />
-    </div>
+    </FullBody>
   );
 }
 
